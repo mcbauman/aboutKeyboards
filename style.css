@@ -1,14 +1,18 @@
 :root{
     --antrazit:#494848;
     --copergrad:linear-gradient(180deg, #924b31,#e6cac1,#924b31);
-    --copper:#924b31
+    --copper:#6d3622;  
 }
+
+
 
 body{
     background-color: grey;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     color: var(--antrazit);
+    text-align: center;
+    margin: 0;
 }
 
 .main-page-image {
@@ -43,4 +47,9 @@ h1 {
    a {
        color: var(--copper);
        
+   }
+
+   .picSlides{
+       float:left;
+       max-width: 400px;
    }
