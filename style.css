@@ -20,6 +20,15 @@ h1 {
     background: var(--copergrad);
     font-size: 3rem;
     padding:20px 0;
-   
-    
-}
+   }
+
+   header ol {
+       display:flex;
+       justify-content: space-around;
+   }
+   li {
+       list-style-type: none;
+   }
+   .hiddenLi {
+       display: none;
+   }
