@@ -1,0 +1,9 @@
+:root{
+    --antrazit:black;
+    --copergrad:linear-gradient(180deg, #924b31,#e6cac1,#924b31);
+    --copper:#924b31
+}
+
+body{
+    background-color: grey;
+}
