@@ -62,4 +62,11 @@ h1 {
        text-align: justify;
        font-size: 1.25rem;
        
+       
+   }
+
+   table{
+       justify-content: space-evenly;
+       width: 100%;
+       
    }
