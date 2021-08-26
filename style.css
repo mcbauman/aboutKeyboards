@@ -1,16 +1,25 @@
 :root{
-    --antrazit:black;
+    --antrazit:#494848;
     --copergrad:linear-gradient(180deg, #924b31,#e6cac1,#924b31);
     --copper:#924b31
 }
 
 body{
     background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    color: var(--antrazit);
 }
 
 .main-page-image {
-    
+
 }
 h1 {
     text-align: center;
+    text-transform: uppercase;
+    background: var(--copergrad);
+    font-size: 3rem;
+    padding:20px 0;
+   
+    
 }
