@@ -35,21 +35,31 @@ h1 {
    }
    li {
        list-style-type: none;
-       text-decoration: none;
+       
    } 
    .hiddenLi {
        display: none;
+       justify-content: space-between;
    }
 
-   header ol:hover li {
-       display:unset
+   #hover-post:hover li{
+       display: unset
+       
    }
    a {
        color: var(--copper);
+       text-decoration: none;
        
    }
 
    .picSlides{
        float:left;
        max-width: 400px;
+   }
+
+   article {
+       background: lightgray;
+       text-align: justify;
+       font-size: 1.25rem;
+       
    }
