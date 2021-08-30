@@ -1,12 +1,12 @@
-:root{
-    --antrazit:#494848;
-    --copergrad:linear-gradient(180deg, #924b31,#e6cac1,#924b31);
-    --copper:#6d3622;  
+:root {
+    --antrazit: #494848;
+    --copergrad: linear-gradient(180deg, #924b31, #e6cac1, #924b31);
+    --copper: #6d3622;
 }
 
 
 
-body{
+body {
     background-color: grey;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
@@ -15,58 +15,62 @@ body{
     margin: 0;
 }
 
-.main-page-image {
+.main-page-image {}
 
-}
 h1 {
     text-align: center;
     text-transform: uppercase;
     background: var(--copergrad);
     font-size: 3rem;
-    padding:20px 0;
-   }
+    padding: 20px 0;
+}
 
-   header ol {
-       display:flex;
-       justify-content: space-around;
-       font-weight: bold;
-       font-size: 1.5rem;  
-   }
-   
-   li {
-       list-style-type: none;
-       
-   } 
-   .hiddenLi {
-       display: none;
-       justify-content: space-between;
-   }
+header ol {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 20px;
+}
 
-   #hover-post:hover li{
-       display: unset
-       
-   }
-   a {
-       color: var(--copper);
-       text-decoration: none;
-       
-   }
+li {
+    list-style-type: none;
 
-   .picSlides{
-       float:left;
-       max-width: 400px;
-   }
+}
 
-   article {
-       background: lightgray;
-       text-align: justify;
-       font-size: 1.25rem;
-       
-       
-   }
+nav:hover .hiddenLi {
+    display: flex;
 
-   table{
-       justify-content: space-evenly;
-       width: 100%;
-       
-   }
+}
+
+.hiddenLi {
+    display: none;
+
+}
+
+
+a {
+    color: var(--copper);
+    text-decoration: none;
+
+}
+
+.picSlides {
+    float: left;
+    max-width: 400px;
+}
+
+article {
+    background: lightgray;
+    text-align: justify;
+    font-size: 1.25rem;
+
+
+}
+
+table {
+    justify-content: space-evenly;
+    width: 100%;
+
+}
